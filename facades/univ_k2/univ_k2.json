@@ -1,0 +1,106 @@
+{
+ "0": {
+  "file": "univ_k2_e0.jpg",
+  "nfile": "univ_k2_e0_n.jpg",
+  "H": 14.4,
+  "Y0": 1.5,
+  "w": 227,
+  "h": 445
+ },
+ "1": {
+  "file": "univ_k2_e1.jpg",
+  "nfile": "univ_k2_e1_n.jpg",
+  "H": 14.4,
+  "Y0": 1.5,
+  "w": 469,
+  "h": 445
+ },
+ "2": {
+  "file": "univ_k2_e2.jpg",
+  "nfile": "univ_k2_e2_n.jpg",
+  "H": 14.4,
+  "Y0": 1.5,
+  "w": 343,
+  "h": 445
+ },
+ "3": {
+  "file": "univ_k2_e3.jpg",
+  "nfile": "univ_k2_e3_n.jpg",
+  "H": 14.4,
+  "Y0": 1.5,
+  "w": 67,
+  "h": 445
+ },
+ "4": {
+  "file": "univ_k2_e4.jpg",
+  "nfile": "univ_k2_e4_n.jpg",
+  "H": 14.4,
+  "Y0": 1.5,
+  "w": 174,
+  "h": 445
+ },
+ "5": {
+  "file": "univ_k2_e5.jpg",
+  "nfile": "univ_k2_e5_n.jpg",
+  "H": 14.4,
+  "Y0": 1.5,
+  "w": 77,
+  "h": 445
+ },
+ "6": {
+  "file": "univ_k2_e6.jpg",
+  "nfile": "univ_k2_e6_n.jpg",
+  "H": 14.4,
+  "Y0": 1.5,
+  "w": 1879,
+  "h": 445
+ },
+ "7": {
+  "file": "univ_k2_e7.jpg",
+  "nfile": "univ_k2_e7_n.jpg",
+  "H": 14.4,
+  "Y0": 1.5,
+  "w": 177,
+  "h": 445
+ },
+ "8": {
+  "file": "univ_k2_e8.jpg",
+  "nfile": "univ_k2_e8_n.jpg",
+  "H": 14.4,
+  "Y0": 1.5,
+  "w": 462,
+  "h": 445
+ },
+ "9": {
+  "file": "univ_k2_e9.jpg",
+  "nfile": "univ_k2_e9_n.jpg",
+  "H": 14.4,
+  "Y0": 1.5,
+  "w": 1817,
+  "h": 445
+ },
+ "10": {
+  "file": "univ_k2_e10.jpg",
+  "nfile": "univ_k2_e10_n.jpg",
+  "H": 14.4,
+  "Y0": 1.5,
+  "w": 144,
+  "h": 445
+ },
+ "11": {
+  "file": "univ_k2_e11.jpg",
+  "nfile": "univ_k2_e11_n.jpg",
+  "H": 14.4,
+  "Y0": 1.5,
+  "w": 145,
+  "h": 445
+ },
+ "12": {
+  "file": "univ_k2_e12.jpg",
+  "nfile": "univ_k2_e12_n.jpg",
+  "H": 14.4,
+  "Y0": 1.5,
+  "w": 242,
+  "h": 445
+ }
+}

@@ -1,0 +1,26 @@
+{
+ "0": {
+  "file": "univ_k4e_e0.jpg",
+  "nfile": "univ_k4e_e0_n.jpg",
+  "H": 7.2,
+  "Y0": 1.2,
+  "w": 743,
+  "h": 235
+ },
+ "1": {
+  "file": "univ_k4e_e1.jpg",
+  "nfile": "univ_k4e_e1_n.jpg",
+  "H": 7.2,
+  "Y0": 1.2,
+  "w": 209,
+  "h": 235
+ },
+ "3": {
+  "file": "univ_k4e_e3.jpg",
+  "nfile": "univ_k4e_e3_n.jpg",
+  "H": 7.2,
+  "Y0": 1.2,
+  "w": 206,
+  "h": 235
+ }
+}

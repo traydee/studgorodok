@@ -1,0 +1,42 @@
+{
+ "0": {
+  "file": "univ_k2e_e0.jpg",
+  "nfile": "univ_k2e_e0_n.jpg",
+  "H": 8.4,
+  "Y0": 1.5,
+  "w": 956,
+  "h": 277
+ },
+ "3": {
+  "file": "univ_k2e_e3.jpg",
+  "nfile": "univ_k2e_e3_n.jpg",
+  "H": 8.4,
+  "Y0": 1.5,
+  "w": 366,
+  "h": 277
+ },
+ "4": {
+  "file": "univ_k2e_e4.jpg",
+  "nfile": "univ_k2e_e4_n.jpg",
+  "H": 8.4,
+  "Y0": 1.5,
+  "w": 1030,
+  "h": 277
+ },
+ "6": {
+  "file": "univ_k2e_e6.jpg",
+  "nfile": "univ_k2e_e6_n.jpg",
+  "H": 8.4,
+  "Y0": 1.5,
+  "w": 351,
+  "h": 277
+ },
+ "7": {
+  "file": "univ_k2e_e7.jpg",
+  "nfile": "univ_k2e_e7_n.jpg",
+  "H": 8.4,
+  "Y0": 1.5,
+  "w": 43,
+  "h": 277
+ }
+}

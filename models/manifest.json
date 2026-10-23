@@ -1,0 +1,3010 @@
+{
+ "_comment": "All vehicle .glb files (prep3.mjs): forward = +Z, up = +Y, origin at the wheel bottoms, real length in metres. yawOffset (radians) would be applied on top; every model currently has 0. Client: traffic body +x = vehicle forward, so the model gets yaw +PI/2 (systems/vehicles.ts).",
+ "forward": "+Z",
+ "models": {
+  "vaz2105": {
+   "yawOffset": 0,
+   "driverSeat": [
+    0.353,
+    0.452,
+    0.147
+   ],
+   "passengerSeats": [
+    [
+     -0.353,
+     0.452,
+     0.147
+    ]
+   ],
+   "passengerProb": 0.3,
+   "seatScale": 1,
+   "kind": "car",
+   "length": 4.13,
+   "width": 1.767,
+   "bodyWidth": 1.662,
+   "height": 1.439,
+   "doorPoint": [
+    1.4335,
+    0,
+    0.147
+   ],
+   "rig": true
+  },
+  "vaz2108": {
+   "yawOffset": 0,
+   "driverSeat": [
+    0.402,
+    0.437,
+    -0.085
+   ],
+   "passengerSeats": [
+    [
+     -0.402,
+     0.437,
+     -0.085
+    ]
+   ],
+   "passengerProb": 0.3,
+   "seatScale": 1,
+   "kind": "car",
+   "length": 4.006,
+   "width": 2.008,
+   "bodyWidth": 1.677,
+   "height": 1.455,
+   "doorPoint": [
+    1.554,
+    0,
+    -0.085
+   ],
+   "rig": true
+  },
+  "bmw_e34": {
+   "yawOffset": 0,
+   "driverSeat": [
+    0.366,
+    0.408,
+    0.226
+   ],
+   "passengerSeats": [
+    [
+     -0.366,
+     0.408,
+     0.226
+    ]
+   ],
+   "passengerProb": 0.3,
+   "seatScale": 1,
+   "kind": "car",
+   "length": 4.72,
+   "width": 1.832,
+   "bodyWidth": 1.826,
+   "height": 1.377,
+   "doorPoint": [
+    1.4660000000000002,
+    0,
+    0.226
+   ],
+   "rig": true
+  },
+  "bmw_e36": {
+   "yawOffset": 0,
+   "driverSeat": [
+    0.364,
+    0.354,
+    0.137
+   ],
+   "passengerSeats": [
+    [
+     -0.364,
+     0.354,
+     0.137
+    ]
+   ],
+   "passengerProb": 0.3,
+   "seatScale": 1,
+   "kind": "car",
+   "length": 4.43,
+   "width": 1.82,
+   "bodyWidth": 1.82,
+   "height": 1.301,
+   "doorPoint": [
+    1.46,
+    0,
+    0.137
+   ],
+   "rig": true
+  },
+  "pajero": {
+   "yawOffset": 0,
+   "driverSeat": [
+    0.446,
+    0.56,
+    0.171
+   ],
+   "passengerSeats": [
+    [
+     -0.446,
+     0.56,
+     0.171
+    ]
+   ],
+   "passengerProb": 0.3,
+   "seatScale": 1,
+   "kind": "car",
+   "length": 4.7,
+   "width": 2.231,
+   "bodyWidth": 2.02,
+   "height": 2.019,
+   "doorPoint": [
+    1.6655,
+    0,
+    0.171
+   ],
+   "rig": true
+  },
+  "trolley_aksm333": {
+   "yawOffset": 0,
+   "driverSeat": [
+    0.6,
+    1.1,
+    7.45
+   ],
+   "passengerSeats": [
+    [
+     0.8,
+     1,
+     5.2
+    ],
+    [
+     0.8,
+     1,
+     4
+    ],
+    [
+     0.8,
+     1,
+     2.8
+    ],
+    [
+     0.8,
+     1,
+     1.6
+    ],
+    [
+     0.8,
+     1,
+     0.4
+    ],
+    [
+     0.8,
+     1,
+     -0.8
+    ],
+    [
+     0.8,
+     1,
+     -2
+    ],
+    [
+     0.8,
+     1,
+     -3.2
+    ],
+    [
+     0.8,
+     1,
+     -4.4
+    ],
+    [
+     0.8,
+     1,
+     -5.6
+    ],
+    [
+     0.8,
+     1,
+     -6.8
+    ],
+    [
+     -0.8,
+     1,
+     4
+    ],
+    [
+     -0.8,
+     1,
+     2.8
+    ],
+    [
+     -0.8,
+     1,
+     1.6
+    ],
+    [
+     -0.8,
+     1,
+     0.4
+    ],
+    [
+     -0.8,
+     1,
+     -0.8
+    ],
+    [
+     -0.8,
+     1,
+     -2
+    ],
+    [
+     -0.8,
+     1,
+     -3.2
+    ],
+    [
+     -0.8,
+     1,
+     -4.4
+    ],
+    [
+     -0.8,
+     1,
+     -5.6
+    ],
+    [
+     -0.8,
+     1,
+     -6.8
+    ]
+   ],
+   "passengerProb": 0.4,
+   "seatScale": 1,
+   "kind": "bus",
+   "length": 18,
+   "width": 2.87,
+   "height": 3.1
+  },
+  "town_bus": {
+   "yawOffset": 0,
+   "driverSeat": [
+    0.62,
+    1.36,
+    4.35
+   ],
+   "passengerSeats": [
+    [
+     0.78,
+     1.26,
+     3
+    ],
+    [
+     0.78,
+     1.26,
+     1.8
+    ],
+    [
+     0.78,
+     1.26,
+     0.6
+    ],
+    [
+     0.78,
+     1.26,
+     -0.6
+    ],
+    [
+     0.78,
+     1.26,
+     -1.8
+    ],
+    [
+     0.78,
+     1.26,
+     -3
+    ],
+    [
+     0.78,
+     1.26,
+     -4.2
+    ],
+    [
+     0.78,
+     1.26,
+     -5
+    ],
+    [
+     -0.78,
+     1.26,
+     1.8
+    ],
+    [
+     -0.78,
+     1.26,
+     0.6
+    ],
+    [
+     -0.78,
+     1.26,
+     -0.6
+    ],
+    [
+     -0.78,
+     1.26,
+     -1.8
+    ],
+    [
+     -0.78,
+     1.26,
+     -3
+    ],
+    [
+     -0.78,
+     1.26,
+     -4.2
+    ],
+    [
+     -0.78,
+     1.26,
+     -5
+    ]
+   ],
+   "passengerProb": 0.5,
+   "seatScale": 1,
+   "kind": "bus",
+   "length": 11.2,
+   "width": 2.73,
+   "height": 2.66
+  },
+  "mclaren765lt": {
+   "yawOffset": 0,
+   "driverSeat": [
+    0.4,
+    0.24,
+    0.23
+   ],
+   "passengerSeats": [
+    [
+     -0.4,
+     0.24,
+     0.23
+    ]
+   ],
+   "passengerProb": 0.3,
+   "seatScale": 0.95,
+   "kind": "car",
+   "length": 4.57,
+   "width": 2.15,
+   "height": 1.12
+  },
+  "ferrari849": {
+   "yawOffset": 0,
+   "driverSeat": [
+    0.4,
+    0.19,
+    0.14
+   ],
+   "passengerSeats": [
+    [
+     -0.4,
+     0.19,
+     0.14
+    ]
+   ],
+   "passengerProb": 0.3,
+   "seatScale": 0.95,
+   "kind": "car",
+   "length": 4.74,
+   "width": 2.31,
+   "height": 1.06
+  },
+  "porsche992gt3r": {
+   "yawOffset": 0,
+   "driverSeat": [
+    0.39,
+    0.2,
+    -0.23
+   ],
+   "passengerSeats": [
+    [
+     -0.39,
+     0.2,
+     -0.23
+    ]
+   ],
+   "passengerProb": 0.3,
+   "seatScale": 0.95,
+   "kind": "car",
+   "length": 4.57,
+   "width": 1.96,
+   "height": 1.07
+  },
+  "audi_rs6": {
+   "yawOffset": 0,
+   "driverSeat": [
+    0.4,
+    0.41,
+    -0.2
+   ],
+   "passengerSeats": [
+    [
+     -0.4,
+     0.41,
+     -0.2
+    ]
+   ],
+   "passengerProb": 0.3,
+   "seatScale": 0.98,
+   "kind": "car",
+   "length": 4.98,
+   "width": 2.1,
+   "height": 1.31
+  },
+  "viper_gtsr": {
+   "yawOffset": 0,
+   "driverSeat": [
+    0.4,
+    0.2,
+    -0.4
+   ],
+   "passengerSeats": [
+    [
+     -0.4,
+     0.2,
+     -0.4
+    ]
+   ],
+   "passengerProb": 0.3,
+   "seatScale": 0.95,
+   "kind": "car",
+   "length": 4.5,
+   "width": 2.1,
+   "height": 1.07
+  },
+  "honda_nsx": {
+   "yawOffset": 0,
+   "driverSeat": [
+    0.39,
+    0.18,
+    0.09
+   ],
+   "passengerSeats": [
+    [
+     -0.39,
+     0.18,
+     0.09
+    ]
+   ],
+   "passengerProb": 0.3,
+   "seatScale": 0.9,
+   "kind": "car",
+   "length": 4.39,
+   "width": 1.97,
+   "height": 1.01
+  },
+  "supra_a80": {
+   "yawOffset": 0,
+   "driverSeat": [
+    0.4,
+    0.27,
+    -0.22
+   ],
+   "passengerSeats": [
+    [
+     -0.4,
+     0.27,
+     -0.22
+    ]
+   ],
+   "passengerProb": 0.3,
+   "seatScale": 0.96,
+   "kind": "car",
+   "length": 4.5,
+   "width": 1.98,
+   "height": 1.14
+  },
+  "mazda_rx7": {
+   "yawOffset": 0,
+   "driverSeat": [
+    0.39,
+    0.24,
+    -0.17
+   ],
+   "passengerSeats": [
+    [
+     -0.39,
+     0.24,
+     -0.17
+    ]
+   ],
+   "passengerProb": 0.3,
+   "seatScale": 0.95,
+   "kind": "car",
+   "length": 4.29,
+   "width": 1.95,
+   "height": 1.12
+  },
+  "bmw_m3gtr": {
+   "yawOffset": 0,
+   "driverSeat": [
+    0.37,
+    0.28,
+    -0.18
+   ],
+   "passengerSeats": [
+    [
+     -0.37,
+     0.28,
+     -0.18
+    ]
+   ],
+   "passengerProb": 0.3,
+   "seatScale": 0.96,
+   "kind": "car",
+   "length": 4.49,
+   "width": 1.84,
+   "height": 1.15
+  },
+  "lincoln_mark5": {
+   "yawOffset": 0,
+   "driverSeat": [
+    0.4,
+    0.37,
+    -0.58
+   ],
+   "passengerSeats": [
+    [
+     -0.4,
+     0.37,
+     -0.58
+    ]
+   ],
+   "passengerProb": 0.3,
+   "seatScale": 0.97,
+   "kind": "car",
+   "length": 5.8,
+   "width": 2.04,
+   "height": 1.26
+  },
+  "bentley_bt": {
+   "yawOffset": 0,
+   "driverSeat": [
+    0.4,
+    0.56,
+    -0.36
+   ],
+   "passengerSeats": [
+    [
+     -0.4,
+     0.56,
+     -0.36
+    ]
+   ],
+   "passengerProb": 0.3,
+   "seatScale": 1,
+   "kind": "car",
+   "length": 5.2,
+   "width": 1.98,
+   "height": 1.56
+  },
+  "delorean": {
+   "yawOffset": 0,
+   "driverSeat": [
+    0.37,
+    0.23,
+    -0.21
+   ],
+   "passengerSeats": [
+    [
+     -0.37,
+     0.23,
+     -0.21
+    ]
+   ],
+   "passengerProb": 0.3,
+   "seatScale": 0.95,
+   "kind": "car",
+   "length": 4.2,
+   "width": 1.87,
+   "height": 1.09
+  },
+  "toyota_ae86": {
+   "yawOffset": 0,
+   "driverSeat": [
+    0.38,
+    0.33,
+    -0.17
+   ],
+   "passengerSeats": [
+    [
+     -0.38,
+     0.33,
+     -0.17
+    ]
+   ],
+   "passengerProb": 0.3,
+   "seatScale": 0.96,
+   "kind": "car",
+   "length": 4.2,
+   "width": 1.92,
+   "height": 1.21
+  },
+  "countach": {
+   "yawOffset": 0,
+   "driverSeat": [
+    0.4,
+    0.18,
+    0.04
+   ],
+   "passengerSeats": [
+    [
+     -0.4,
+     0.18,
+     0.04
+    ]
+   ],
+   "passengerProb": 0.3,
+   "seatScale": 0.87,
+   "kind": "car",
+   "length": 4.15,
+   "width": 2.05,
+   "height": 0.99
+  },
+  "maybach": {
+   "yawOffset": 0,
+   "driverSeat": [
+    0.36,
+    0.52,
+    -0.25
+   ],
+   "passengerSeats": [
+    [
+     -0.36,
+     0.52,
+     -0.25
+    ]
+   ],
+   "passengerProb": 0,
+   "seatScale": 1,
+   "kind": "car",
+   "length": -2000000000,
+   "width": -2000000000,
+   "height": -1000000000
+  },
+  "vaz2107": {
+   "yawOffset": 0,
+   "driverSeat": [
+    0.358,
+    0.451,
+    0.126
+   ],
+   "passengerSeats": [
+    [
+     -0.358,
+     0.451,
+     0.126
+    ]
+   ],
+   "passengerProb": 0.3,
+   "seatScale": 1,
+   "kind": "car",
+   "length": 4.145,
+   "width": 1.789,
+   "bodyWidth": 1.635,
+   "height": 1.412,
+   "doorPoint": [
+    1.4445000000000001,
+    0,
+    0.126
+   ],
+   "rig": true
+  },
+  "gaz3110": {
+   "yawOffset": 0,
+   "driverSeat": [
+    0.405,
+    0.475,
+    0.221
+   ],
+   "passengerSeats": [
+    [
+     -0.405,
+     0.475,
+     0.221
+    ]
+   ],
+   "passengerProb": 0.3,
+   "seatScale": 1,
+   "kind": "car",
+   "length": 4.88,
+   "width": 2.024,
+   "bodyWidth": 1.789,
+   "height": 1.485,
+   "doorPoint": [
+    1.562,
+    0,
+    0.221
+   ],
+   "rig": true
+  },
+  "sierra": {
+   "yawOffset": 0,
+   "driverSeat": [
+    0.387,
+    0.443,
+    0.099
+   ],
+   "passengerSeats": [
+    [
+     -0.387,
+     0.443,
+     0.099
+    ]
+   ],
+   "passengerProb": 0.3,
+   "seatScale": 1,
+   "kind": "car",
+   "length": 4.43,
+   "width": 1.937,
+   "bodyWidth": 1.765,
+   "height": 1.405,
+   "doorPoint": [
+    1.5185,
+    0,
+    0.099
+   ],
+   "rig": true
+  },
+  "vaz2106": {
+   "yawOffset": 0,
+   "driverSeat": [
+    0.334,
+    0.482,
+    0.149
+   ],
+   "passengerSeats": [
+    [
+     -0.334,
+     0.482,
+     0.149
+    ]
+   ],
+   "passengerProb": 0.3,
+   "seatScale": 1,
+   "kind": "car",
+   "length": 4.166,
+   "width": 1.672,
+   "bodyWidth": 1.572,
+   "height": 1.506,
+   "doorPoint": [
+    1.3860000000000001,
+    0,
+    0.149
+   ],
+   "rig": true
+  },
+  "vaz2109": {
+   "yawOffset": 0,
+   "driverSeat": [
+    0.4,
+    0.471,
+    -0.081
+   ],
+   "passengerSeats": [
+    [
+     -0.4,
+     0.471,
+     -0.081
+    ]
+   ],
+   "passengerProb": 0.3,
+   "seatScale": 1,
+   "kind": "car",
+   "length": 4.006,
+   "width": 1.998,
+   "bodyWidth": 1.673,
+   "height": 1.472,
+   "doorPoint": [
+    1.549,
+    0,
+    -0.081
+   ],
+   "rig": true
+  },
+  "vaz2110": {
+   "yawOffset": 0,
+   "driverSeat": [
+    0.364,
+    0.352,
+    0.018
+   ],
+   "passengerSeats": [
+    [
+     -0.364,
+     0.352,
+     0.018
+    ]
+   ],
+   "passengerProb": 0.3,
+   "seatScale": 1,
+   "kind": "car",
+   "length": 4.265,
+   "width": 1.821,
+   "bodyWidth": 1.662,
+   "height": 1.4,
+   "doorPoint": [
+    1.4605000000000001,
+    0,
+    0.018
+   ],
+   "rig": true
+  },
+  "audi80b3": {
+   "yawOffset": 0,
+   "driverSeat": [
+    0.378,
+    0.362,
+    0.017
+   ],
+   "passengerSeats": [
+    [
+     -0.378,
+     0.362,
+     0.017
+    ]
+   ],
+   "passengerProb": 0.3,
+   "seatScale": 1,
+   "kind": "car",
+   "length": 4.393,
+   "width": 1.891,
+   "bodyWidth": 1.655,
+   "height": 1.652,
+   "doorPoint": [
+    1.4955,
+    0,
+    0.017
+   ],
+   "rig": true
+  },
+  "golf3": {
+   "yawOffset": 0,
+   "driverSeat": [
+    0.378,
+    0.337,
+    -0.04
+   ],
+   "passengerSeats": [
+    [
+     -0.378,
+     0.337,
+     -0.04
+    ]
+   ],
+   "passengerProb": 0.3,
+   "seatScale": 1,
+   "kind": "car",
+   "length": 4.02,
+   "width": 1.891,
+   "bodyWidth": 1.731,
+   "height": 1.603,
+   "doorPoint": [
+    1.4955,
+    0,
+    -0.04
+   ],
+   "rig": true
+  },
+  "passatb3": {
+   "yawOffset": 0,
+   "driverSeat": [
+    0.384,
+    0.411,
+    0.117
+   ],
+   "passengerSeats": [
+    [
+     -0.384,
+     0.411,
+     0.117
+    ]
+   ],
+   "passengerProb": 0.3,
+   "seatScale": 1,
+   "kind": "car",
+   "length": 4.575,
+   "width": 1.92,
+   "bodyWidth": 1.722,
+   "height": 1.39,
+   "doorPoint": [
+    1.51,
+    0,
+    0.117
+   ],
+   "rig": true
+  },
+  "w124": {
+   "yawOffset": 0,
+   "driverSeat": [
+    0.377,
+    0.397,
+    0.248
+   ],
+   "passengerSeats": [
+    [
+     -0.377,
+     0.397,
+     0.248
+    ]
+   ],
+   "passengerProb": 0.3,
+   "seatScale": 1,
+   "kind": "car",
+   "length": 4.755,
+   "width": 1.886,
+   "bodyWidth": 1.819,
+   "height": 1.439,
+   "doorPoint": [
+    1.4929999999999999,
+    0,
+    0.248
+   ],
+   "rig": true
+  },
+  "w210": {
+   "yawOffset": 0,
+   "driverSeat": [
+    0.396,
+    0.459,
+    0.268
+   ],
+   "passengerSeats": [
+    [
+     -0.396,
+     0.459,
+     0.268
+    ]
+   ],
+   "passengerProb": 0.3,
+   "seatScale": 1,
+   "kind": "car",
+   "length": 4.795,
+   "width": 1.979,
+   "bodyWidth": 1.796,
+   "height": 1.435,
+   "doorPoint": [
+    1.5395,
+    0,
+    0.268
+   ],
+   "rig": true
+  },
+  "mondeo2": {
+   "yawOffset": 0,
+   "driverSeat": [
+    0.362,
+    0.414,
+    0.16
+   ],
+   "passengerSeats": [
+    [
+     -0.362,
+     0.414,
+     0.16
+    ]
+   ],
+   "passengerProb": 0.3,
+   "seatScale": 1,
+   "kind": "car",
+   "length": 4.671,
+   "width": 1.808,
+   "bodyWidth": 1.758,
+   "height": 1.534,
+   "doorPoint": [
+    1.4540000000000002,
+    0,
+    0.16
+   ],
+   "rig": true
+  },
+  "moskvich2141": {
+   "yawOffset": 0,
+   "driverSeat": [
+    0.39,
+    0.452,
+    -0.035
+   ],
+   "passengerSeats": [
+    [
+     -0.39,
+     0.452,
+     -0.035
+    ]
+   ],
+   "passengerProb": 0.3,
+   "seatScale": 1,
+   "kind": "car",
+   "length": 4.35,
+   "width": 1.948,
+   "bodyWidth": 1.715,
+   "height": 1.412,
+   "doorPoint": [
+    1.524,
+    0,
+    -0.035
+   ],
+   "rig": true
+  },
+  "logan": {
+   "yawOffset": 0,
+   "driverSeat": [
+    0.398,
+    0.558,
+    0.046
+   ],
+   "passengerSeats": [
+    [
+     -0.398,
+     0.558,
+     0.046
+    ]
+   ],
+   "passengerProb": 0.3,
+   "seatScale": 1,
+   "kind": "car",
+   "length": 4.288,
+   "width": 1.989,
+   "bodyWidth": 1.75,
+   "height": 1.821,
+   "doorPoint": [
+    1.5445000000000002,
+    0,
+    0.046
+   ],
+   "rig": true
+  },
+  "vectraa": {
+   "yawOffset": 0,
+   "driverSeat": [
+    0.351,
+    0.37,
+    0.09
+   ],
+   "passengerSeats": [
+    [
+     -0.351,
+     0.37,
+     0.09
+    ]
+   ],
+   "passengerProb": 0.3,
+   "seatScale": 1,
+   "kind": "car",
+   "length": 4.43,
+   "width": 1.757,
+   "bodyWidth": 1.701,
+   "height": 1.67,
+   "doorPoint": [
+    1.4285,
+    0,
+    0.09
+   ],
+   "rig": true
+  },
+  "sprinter": {
+   "yawOffset": 0,
+   "driverSeat": [
+    0.408,
+    0.665,
+    1.553
+   ],
+   "passengerSeats": [
+    [
+     -0.408,
+     0.665,
+     1.553
+    ]
+   ],
+   "passengerProb": 0.3,
+   "seatScale": 1,
+   "kind": "van",
+   "length": 5.91,
+   "width": 2.04,
+   "bodyWidth": 1.726,
+   "height": 2.216,
+   "doorPoint": [
+    1.57,
+    0,
+    1.553
+   ],
+   "rig": true
+  },
+  "ziu9": {
+   "yawOffset": 0,
+   "driverSeat": [
+    0.578,
+    1.1,
+    4.765
+   ],
+   "passengerSeats": [
+    [
+     0.9,
+     1.1,
+     -4.3149999999999995
+    ],
+    [
+     -0.9,
+     1.1,
+     -4.3149999999999995
+    ],
+    [
+     0.9,
+     1.1,
+     -2.9649999999999994
+    ],
+    [
+     -0.9,
+     1.1,
+     -2.9649999999999994
+    ],
+    [
+     0.9,
+     1.1,
+     -1.6149999999999993
+    ],
+    [
+     -0.9,
+     1.1,
+     -1.6149999999999993
+    ],
+    [
+     0.9,
+     1.1,
+     -0.26499999999999924
+    ],
+    [
+     -0.9,
+     1.1,
+     -0.26499999999999924
+    ],
+    [
+     0.9,
+     1.1,
+     1.0850000000000009
+    ],
+    [
+     -0.9,
+     1.1,
+     1.0850000000000009
+    ],
+    [
+     0.9,
+     1.1,
+     2.435000000000001
+    ],
+    [
+     -0.9,
+     1.1,
+     2.435000000000001
+    ]
+   ],
+   "passengerProb": 0.4,
+   "seatScale": 1,
+   "kind": "bus",
+   "length": 11.83,
+   "width": 2.888,
+   "bodyWidth": 2.515,
+   "height": 3.297,
+   "doorPoint": [
+    1.994,
+    0,
+    4.765
+   ],
+   "rig": true
+  },
+  "aksm333": {
+   "yawOffset": 0,
+   "driverSeat": [
+    0.573,
+    1.1,
+    7.85
+   ],
+   "passengerSeats": [
+    [
+     0.9,
+     1.1,
+     -7.4
+    ],
+    [
+     -0.9,
+     1.1,
+     -7.4
+    ],
+    [
+     0.9,
+     1.1,
+     -6.050000000000001
+    ],
+    [
+     -0.9,
+     1.1,
+     -6.050000000000001
+    ],
+    [
+     0.9,
+     1.1,
+     -4.700000000000001
+    ],
+    [
+     -0.9,
+     1.1,
+     -4.700000000000001
+    ],
+    [
+     0.9,
+     1.1,
+     -3.350000000000001
+    ],
+    [
+     -0.9,
+     1.1,
+     -3.350000000000001
+    ],
+    [
+     0.9,
+     1.1,
+     -2.000000000000001
+    ],
+    [
+     -0.9,
+     1.1,
+     -2.000000000000001
+    ],
+    [
+     0.9,
+     1.1,
+     -0.6500000000000008
+    ],
+    [
+     -0.9,
+     1.1,
+     -0.6500000000000008
+    ],
+    [
+     0.9,
+     1.1,
+     0.6999999999999993
+    ],
+    [
+     -0.9,
+     1.1,
+     0.6999999999999993
+    ],
+    [
+     0.9,
+     1.1,
+     2.0499999999999994
+    ],
+    [
+     -0.9,
+     1.1,
+     2.0499999999999994
+    ],
+    [
+     0.9,
+     1.1,
+     3.3999999999999995
+    ],
+    [
+     -0.9,
+     1.1,
+     3.3999999999999995
+    ],
+    [
+     0.9,
+     1.1,
+     4.75
+    ],
+    [
+     -0.9,
+     1.1,
+     4.75
+    ]
+   ],
+   "passengerProb": 0.4,
+   "seatScale": 1,
+   "kind": "bus",
+   "length": 18,
+   "width": 2.866,
+   "bodyWidth": 2.547,
+   "height": 3.584,
+   "doorPoint": [
+    1.983,
+    0,
+    7.85
+   ],
+   "rig": true
+  },
+  "merc_gl350": {
+   "yawOffset": 0,
+   "driverSeat": [
+    0.419,
+    0.56,
+    0.363
+   ],
+   "passengerSeats": [
+    [
+     -0.419,
+     0.56,
+     0.363
+    ]
+   ],
+   "passengerProb": 0.3,
+   "seatScale": 1,
+   "kind": "car",
+   "length": 5.088,
+   "width": 2.095,
+   "bodyWidth": 1.918,
+   "height": 1.827,
+   "doorPoint": [
+    1.5975000000000001,
+    0,
+    0.363
+   ],
+   "rig": true
+  },
+  "bus_o304": {
+   "yawOffset": 0,
+   "driverSeat": [
+    0.492,
+    1.036,
+    4.5
+   ],
+   "passengerSeats": [
+    [
+     0.9,
+     1.036,
+     -4.050000000000001
+    ],
+    [
+     -0.9,
+     1.036,
+     -4.050000000000001
+    ],
+    [
+     0.9,
+     1.036,
+     -2.7000000000000006
+    ],
+    [
+     -0.9,
+     1.036,
+     -2.7000000000000006
+    ],
+    [
+     0.9,
+     1.036,
+     -1.3500000000000005
+    ],
+    [
+     -0.9,
+     1.036,
+     -1.3500000000000005
+    ],
+    [
+     0.9,
+     1.036,
+     -4.440892098500626e-16
+    ],
+    [
+     -0.9,
+     1.036,
+     -4.440892098500626e-16
+    ],
+    [
+     0.9,
+     1.036,
+     1.3499999999999996
+    ],
+    [
+     -0.9,
+     1.036,
+     1.3499999999999996
+    ]
+   ],
+   "passengerProb": 0.4,
+   "seatScale": 1,
+   "kind": "bus",
+   "length": 11.3,
+   "width": 2.459,
+   "bodyWidth": 2.198,
+   "height": 2.879,
+   "doorPoint": [
+    1.7795,
+    0,
+    4.5
+   ],
+   "rig": true
+  },
+  "merc_w203": {
+   "yawOffset": 0,
+   "driverSeat": [
+    0.396,
+    0.461,
+    0.205
+   ],
+   "passengerSeats": [
+    [
+     -0.396,
+     0.461,
+     0.205
+    ]
+   ],
+   "passengerProb": 0.3,
+   "seatScale": 1,
+   "kind": "car",
+   "length": 4.526,
+   "width": 1.979,
+   "bodyWidth": 1.752,
+   "height": 1.441,
+   "doorPoint": [
+    1.5395,
+    0,
+    0.205
+   ],
+   "rig": true
+  },
+  "merc_s600": {
+   "yawOffset": 0,
+   "driverSeat": [
+    0.43,
+    0.479,
+    0.351
+   ],
+   "passengerSeats": [
+    [
+     -0.43,
+     0.479,
+     0.351
+    ]
+   ],
+   "passengerProb": 0.3,
+   "seatScale": 1,
+   "kind": "car",
+   "length": 5.038,
+   "width": 2.151,
+   "bodyWidth": 1.88,
+   "height": 1.496,
+   "doorPoint": [
+    1.6255,
+    0,
+    0.351
+   ],
+   "rig": true
+  },
+  "merc_amggt": {
+   "yawOffset": 0,
+   "driverSeat": [
+    0.411,
+    0.3,
+    0.054
+   ],
+   "passengerSeats": [
+    [
+     -0.411,
+     0.3,
+     0.054
+    ]
+   ],
+   "passengerProb": 0.3,
+   "seatScale": 1,
+   "kind": "car",
+   "length": 4.544,
+   "width": 2.056,
+   "bodyWidth": 1.959,
+   "height": 1.232,
+   "doorPoint": [
+    1.578,
+    0,
+    0.054
+   ],
+   "rig": true
+  },
+  "merc_sclass": {
+   "yawOffset": 0,
+   "driverSeat": [
+    0.444,
+    0.446,
+    0.391
+   ],
+   "passengerSeats": [
+    [
+     -0.444,
+     0.446,
+     0.391
+    ]
+   ],
+   "passengerProb": 0.3,
+   "seatScale": 1,
+   "kind": "car",
+   "length": 5.076,
+   "width": 2.222,
+   "bodyWidth": 1.901,
+   "height": 1.43,
+   "doorPoint": [
+    1.661,
+    0,
+    0.391
+   ],
+   "rig": true
+  },
+  "merc_w212": {
+   "yawOffset": 0,
+   "driverSeat": [
+    0.416,
+    0.48,
+    0.285
+   ],
+   "passengerSeats": [
+    [
+     -0.416,
+     0.48,
+     0.285
+    ]
+   ],
+   "passengerProb": 0.3,
+   "seatScale": 1,
+   "kind": "car",
+   "length": 4.868,
+   "width": 2.082,
+   "bodyWidth": 1.852,
+   "height": 1.499,
+   "doorPoint": [
+    1.591,
+    0,
+    0.285
+   ],
+   "rig": true
+  },
+  "merc_cclassic": {
+   "yawOffset": 0,
+   "driverSeat": [
+    0.393,
+    0.473,
+    0.136
+   ],
+   "passengerSeats": [
+    [
+     -0.393,
+     0.473,
+     0.136
+    ]
+   ],
+   "passengerProb": 0.3,
+   "seatScale": 1,
+   "kind": "car",
+   "length": 4.487,
+   "width": 1.965,
+   "bodyWidth": 1.752,
+   "height": 1.478,
+   "doorPoint": [
+    1.5325000000000002,
+    0,
+    0.136
+   ],
+   "rig": true
+  },
+  "merc_cls55": {
+   "yawOffset": 0,
+   "driverSeat": [
+    0.412,
+    0.437,
+    0.245
+   ],
+   "passengerSeats": [
+    [
+     -0.412,
+     0.437,
+     0.245
+    ]
+   ],
+   "passengerProb": 0.3,
+   "seatScale": 1,
+   "kind": "car",
+   "length": 4.915,
+   "width": 2.058,
+   "bodyWidth": 1.858,
+   "height": 1.441,
+   "doorPoint": [
+    1.579,
+    0,
+    0.245
+   ],
+   "rig": true
+  },
+  "merc_sprinter": {
+   "yawOffset": 0,
+   "driverSeat": [
+    0.413,
+    0.7,
+    1.578
+   ],
+   "passengerSeats": [
+    [
+     -0.413,
+     0.7,
+     1.578
+    ]
+   ],
+   "passengerProb": 0.3,
+   "seatScale": 1,
+   "kind": "van",
+   "length": 5.926,
+   "width": 2.067,
+   "bodyWidth": 1.762,
+   "height": 2.455,
+   "doorPoint": [
+    1.5835000000000001,
+    0,
+    1.578
+   ],
+   "rig": true
+  },
+  "audi80b4": {
+   "yawOffset": 0,
+   "driverSeat": [
+    0.381,
+    0.351,
+    0.081
+   ],
+   "passengerSeats": [
+    [
+     -0.381,
+     0.351,
+     0.081
+    ]
+   ],
+   "passengerProb": 0.3,
+   "seatScale": 1,
+   "kind": "car",
+   "length": 4.483,
+   "width": 1.907,
+   "bodyWidth": 1.692,
+   "height": 1.627,
+   "doorPoint": [
+    1.5035,
+    0,
+    0.081
+   ],
+   "rig": true
+  },
+  "audi100c4": {
+   "yawOffset": 0,
+   "driverSeat": [
+    0.385,
+    0.313,
+    0.145
+   ],
+   "passengerSeats": [
+    [
+     -0.385,
+     0.313,
+     0.145
+    ]
+   ],
+   "passengerProb": 0.3,
+   "seatScale": 1,
+   "kind": "car",
+   "length": 4.79,
+   "width": 1.926,
+   "bodyWidth": 1.762,
+   "height": 1.38,
+   "doorPoint": [
+    1.513,
+    0,
+    0.145
+   ],
+   "rig": true
+  },
+  "astraf": {
+   "yawOffset": 0,
+   "driverSeat": [
+    0.389,
+    0.304,
+    -0.055
+   ],
+   "passengerSeats": [
+    [
+     -0.389,
+     0.304,
+     -0.055
+    ]
+   ],
+   "passengerProb": 0.3,
+   "seatScale": 1,
+   "kind": "car",
+   "length": 4.05,
+   "width": 1.945,
+   "bodyWidth": 1.765,
+   "height": 1.481,
+   "doorPoint": [
+    1.5225,
+    0,
+    -0.055
+   ],
+   "rig": true
+  },
+  "merc_w202": {
+   "yawOffset": 0,
+   "driverSeat": [
+    0.387,
+    0.459,
+    0.127
+   ],
+   "passengerSeats": [
+    [
+     -0.387,
+     0.459,
+     0.127
+    ]
+   ],
+   "passengerProb": 0.3,
+   "seatScale": 1,
+   "kind": "car",
+   "length": 4.487,
+   "width": 1.935,
+   "bodyWidth": 1.704,
+   "height": 1.434,
+   "doorPoint": [
+    1.5175,
+    0,
+    0.127
+   ],
+   "rig": true
+  },
+  "merc_ml": {
+   "yawOffset": 0,
+   "driverSeat": [
+    0.428,
+    0.56,
+    0.22
+   ],
+   "passengerSeats": [
+    [
+     -0.428,
+     0.56,
+     0.22
+    ]
+   ],
+   "passengerProb": 0.3,
+   "seatScale": 1,
+   "kind": "car",
+   "length": 4.788,
+   "width": 2.138,
+   "bodyWidth": 1.937,
+   "height": 1.833,
+   "doorPoint": [
+    1.619,
+    0,
+    0.22
+   ],
+   "rig": true
+  },
+  "merc_rclass": {
+   "yawOffset": 0,
+   "driverSeat": [
+    0.412,
+    0.517,
+    0.25
+   ],
+   "passengerSeats": [
+    [
+     -0.412,
+     0.517,
+     0.25
+    ]
+   ],
+   "passengerProb": 0.3,
+   "seatScale": 1,
+   "kind": "car",
+   "length": 4.922,
+   "width": 2.058,
+   "bodyWidth": 1.821,
+   "height": 1.617,
+   "doorPoint": [
+    1.579,
+    0,
+    0.25
+   ],
+   "rig": true
+  },
+  "passatb5": {
+   "yawOffset": 0,
+   "driverSeat": [
+    0.394,
+    0.443,
+    0.122
+   ],
+   "passengerSeats": [
+    [
+     -0.394,
+     0.443,
+     0.122
+    ]
+   ],
+   "passengerProb": 0.3,
+   "seatScale": 1,
+   "kind": "car",
+   "length": 4.703,
+   "width": 1.972,
+   "bodyWidth": 1.791,
+   "height": 1.4,
+   "doorPoint": [
+    1.536,
+    0,
+    0.122
+   ],
+   "rig": true
+  },
+  "gazel": {
+   "yawOffset": 0,
+   "driverSeat": [
+    0.451,
+    0.7,
+    1.208
+   ],
+   "passengerSeats": [
+    [
+     -0.451,
+     0.7,
+     1.208
+    ]
+   ],
+   "passengerProb": 0.3,
+   "seatScale": 1,
+   "kind": "van",
+   "length": 5.54,
+   "width": 2.257,
+   "bodyWidth": 2.073,
+   "height": 3.02,
+   "doorPoint": [
+    1.6785,
+    0,
+    1.208
+   ],
+   "rig": true
+  },
+  "vwt4": {
+   "yawOffset": 0,
+   "driverSeat": [
+    0.415,
+    0.567,
+    0.977
+   ],
+   "passengerSeats": [
+    [
+     -0.415,
+     0.567,
+     0.977
+    ]
+   ],
+   "passengerProb": 0.3,
+   "seatScale": 1,
+   "kind": "van",
+   "length": 4.707,
+   "width": 2.073,
+   "bodyWidth": 1.826,
+   "height": 1.889,
+   "doorPoint": [
+    1.5865,
+    0,
+    0.977
+   ],
+   "rig": true
+  },
+  "maz203": {
+   "yawOffset": 0,
+   "driverSeat": [
+    0.597,
+    1.012,
+    4.845
+   ],
+   "passengerSeats": [
+    [
+     0.9,
+     1.012,
+     -4.395
+    ],
+    [
+     -0.9,
+     1.012,
+     -4.395
+    ],
+    [
+     0.9,
+     1.012,
+     -3.0449999999999995
+    ],
+    [
+     -0.9,
+     1.012,
+     -3.0449999999999995
+    ],
+    [
+     0.9,
+     1.012,
+     -1.6949999999999994
+    ],
+    [
+     -0.9,
+     1.012,
+     -1.6949999999999994
+    ],
+    [
+     0.9,
+     1.012,
+     -0.3449999999999993
+    ],
+    [
+     -0.9,
+     1.012,
+     -0.3449999999999993
+    ],
+    [
+     0.9,
+     1.012,
+     1.0050000000000008
+    ],
+    [
+     -0.9,
+     1.012,
+     1.0050000000000008
+    ],
+    [
+     0.9,
+     1.012,
+     2.355000000000001
+    ],
+    [
+     -0.9,
+     1.012,
+     2.355000000000001
+    ]
+   ],
+   "passengerProb": 0.4,
+   "seatScale": 1,
+   "kind": "bus",
+   "length": 11.99,
+   "width": 2.985,
+   "bodyWidth": 2.639,
+   "height": 2.811,
+   "doorPoint": [
+    2.0425,
+    0,
+    4.845
+   ],
+   "rig": true
+  },
+  "cg_aksm321": {
+   "yawOffset": 0,
+   "driverSeat": [
+    0.62,
+    1,
+    5
+   ],
+   "passengerSeats": [
+    [
+     0.88,
+     1,
+     -3.1
+    ],
+    [
+     0.88,
+     1,
+     -2.4
+    ],
+    [
+     0.88,
+     1,
+     -1.7
+    ],
+    [
+     0.88,
+     1,
+     -1
+    ],
+    [
+     0.88,
+     1,
+     -0.3
+    ],
+    [
+     0.88,
+     1,
+     0.4
+    ],
+    [
+     0.88,
+     1,
+     1.1
+    ],
+    [
+     0.88,
+     1,
+     1.8
+    ],
+    [
+     0.88,
+     1,
+     2.5
+    ],
+    [
+     -0.88,
+     1,
+     -2.8
+    ],
+    [
+     -0.88,
+     1,
+     -2.1
+    ],
+    [
+     -0.88,
+     1,
+     -1.4
+    ],
+    [
+     -0.88,
+     1,
+     1
+    ],
+    [
+     -0.88,
+     1,
+     1.7
+    ],
+    [
+     -0.88,
+     1,
+     2.4
+    ]
+   ],
+   "passengerProb": 0.4,
+   "seatScale": 1,
+   "kind": "bus",
+   "length": 12,
+   "width": 2.55,
+   "height": 3.35,
+   "doorPoint": [
+    1.825,
+    0,
+    0
+   ],
+   "wheelBase": 5.9,
+   "wheelR": 0.5,
+   "cargen": true
+  },
+  "cg_aksm333": {
+   "yawOffset": 0,
+   "driverSeat": [
+    0.62,
+    1,
+    8
+   ],
+   "passengerSeats": [
+    [
+     0.88,
+     1,
+     -5.8
+    ],
+    [
+     -0.88,
+     1,
+     -5.8
+    ],
+    [
+     0.88,
+     1,
+     -5.1
+    ],
+    [
+     -0.88,
+     1,
+     -5.1
+    ],
+    [
+     0.88,
+     1,
+     -4.4
+    ],
+    [
+     -0.88,
+     1,
+     -4.4
+    ],
+    [
+     0.88,
+     1,
+     -2
+    ],
+    [
+     0.88,
+     1,
+     -1.3
+    ],
+    [
+     0.88,
+     1,
+     0.8
+    ],
+    [
+     -0.88,
+     1,
+     0.8
+    ],
+    [
+     0.88,
+     1,
+     1.5
+    ],
+    [
+     -0.88,
+     1,
+     1.5
+    ],
+    [
+     0.88,
+     1,
+     2.2
+    ],
+    [
+     -0.88,
+     1,
+     2.2
+    ],
+    [
+     0.88,
+     1,
+     3.4
+    ],
+    [
+     0.88,
+     1,
+     4.1
+    ],
+    [
+     0.88,
+     1,
+     4.8
+    ],
+    [
+     0.88,
+     1,
+     5.5
+    ],
+    [
+     -0.88,
+     1,
+     4
+    ],
+    [
+     -0.88,
+     1,
+     4.7
+    ]
+   ],
+   "passengerProb": 0.4,
+   "seatScale": 1,
+   "kind": "bus",
+   "length": 18,
+   "width": 2.55,
+   "height": 3.35,
+   "doorPoint": [
+    1.825,
+    0,
+    0
+   ],
+   "wheelBase": 12.15,
+   "wheelR": 0.5,
+   "cargen": true
+  },
+  "cg_astraf": {
+   "yawOffset": 0,
+   "driverSeat": [
+    0.389,
+    0.304,
+    -0.055
+   ],
+   "passengerSeats": [
+    [
+     -0.389,
+     0.304,
+     -0.055
+    ]
+   ],
+   "passengerProb": 0.3,
+   "seatScale": 1,
+   "kind": "car",
+   "length": 4.05,
+   "width": 1.945,
+   "bodyWidth": 1.765,
+   "height": 1.481,
+   "doorPoint": [
+    1.5225,
+    0,
+    -0.055
+   ],
+   "rig": true
+  },
+  "cg_audi100c4": {
+   "yawOffset": 0,
+   "driverSeat": [
+    0.385,
+    0.313,
+    0.145
+   ],
+   "passengerSeats": [
+    [
+     -0.385,
+     0.313,
+     0.145
+    ]
+   ],
+   "passengerProb": 0.3,
+   "seatScale": 1,
+   "kind": "car",
+   "length": 4.79,
+   "width": 1.926,
+   "bodyWidth": 1.762,
+   "height": 1.38,
+   "doorPoint": [
+    1.513,
+    0,
+    0.145
+   ],
+   "rig": true
+  },
+  "cg_audi80b3": {
+   "yawOffset": 0,
+   "driverSeat": [
+    0.378,
+    0.362,
+    0.017
+   ],
+   "passengerSeats": [
+    [
+     -0.378,
+     0.362,
+     0.017
+    ]
+   ],
+   "passengerProb": 0.3,
+   "seatScale": 1,
+   "kind": "car",
+   "length": 4.393,
+   "width": 1.891,
+   "bodyWidth": 1.655,
+   "height": 1.652,
+   "doorPoint": [
+    1.4955,
+    0,
+    0.017
+   ],
+   "rig": true
+  },
+  "cg_audi80b4": {
+   "yawOffset": 0,
+   "driverSeat": [
+    0.381,
+    0.351,
+    0.081
+   ],
+   "passengerSeats": [
+    [
+     -0.381,
+     0.351,
+     0.081
+    ]
+   ],
+   "passengerProb": 0.3,
+   "seatScale": 1,
+   "kind": "car",
+   "length": 4.483,
+   "width": 1.907,
+   "bodyWidth": 1.692,
+   "height": 1.627,
+   "doorPoint": [
+    1.5035,
+    0,
+    0.081
+   ],
+   "rig": true
+  },
+  "cg_bmwe34": {
+   "yawOffset": 0,
+   "driverSeat": [
+    0.366,
+    0.408,
+    0.226
+   ],
+   "passengerSeats": [
+    [
+     -0.366,
+     0.408,
+     0.226
+    ]
+   ],
+   "passengerProb": 0.3,
+   "seatScale": 1,
+   "kind": "car",
+   "length": 4.72,
+   "width": 1.832,
+   "bodyWidth": 1.826,
+   "height": 1.377,
+   "doorPoint": [
+    1.4660000000000002,
+    0,
+    0.226
+   ],
+   "rig": true
+  },
+  "cg_bmwe36": {
+   "yawOffset": 0,
+   "driverSeat": [
+    0.364,
+    0.354,
+    0.137
+   ],
+   "passengerSeats": [
+    [
+     -0.364,
+     0.354,
+     0.137
+    ]
+   ],
+   "passengerProb": 0.3,
+   "seatScale": 1,
+   "kind": "car",
+   "length": 4.43,
+   "width": 1.82,
+   "bodyWidth": 1.82,
+   "height": 1.301,
+   "doorPoint": [
+    1.46,
+    0,
+    0.137
+   ],
+   "rig": true
+  },
+  "cg_gaz31029": {
+   "yawOffset": 0,
+   "driverSeat": [
+    0.405,
+    0.475,
+    0.221
+   ],
+   "passengerSeats": [
+    [
+     -0.405,
+     0.475,
+     0.221
+    ]
+   ],
+   "passengerProb": 0.3,
+   "seatScale": 1,
+   "kind": "car",
+   "length": 4.88,
+   "width": 2.024,
+   "bodyWidth": 1.789,
+   "height": 1.485,
+   "doorPoint": [
+    1.562,
+    0,
+    0.221
+   ],
+   "rig": true
+  },
+  "cg_gazel": {
+   "yawOffset": 0,
+   "driverSeat": [
+    0.451,
+    0.7,
+    1.208
+   ],
+   "passengerSeats": [
+    [
+     -0.451,
+     0.7,
+     1.208
+    ]
+   ],
+   "passengerProb": 0.3,
+   "seatScale": 1,
+   "kind": "van",
+   "length": 5.54,
+   "width": 2.257,
+   "bodyWidth": 2.073,
+   "height": 3.02,
+   "doorPoint": [
+    1.6785,
+    0,
+    1.208
+   ],
+   "rig": true
+  },
+  "cg_golf3": {
+   "yawOffset": 0,
+   "driverSeat": [
+    0.378,
+    0.337,
+    -0.04
+   ],
+   "passengerSeats": [
+    [
+     -0.378,
+     0.337,
+     -0.04
+    ]
+   ],
+   "passengerProb": 0.3,
+   "seatScale": 1,
+   "kind": "car",
+   "length": 4.02,
+   "width": 1.891,
+   "bodyWidth": 1.731,
+   "height": 1.603,
+   "doorPoint": [
+    1.4955,
+    0,
+    -0.04
+   ],
+   "rig": true
+  },
+  "cg_logan": {
+   "yawOffset": 0,
+   "driverSeat": [
+    0.398,
+    0.558,
+    0.046
+   ],
+   "passengerSeats": [
+    [
+     -0.398,
+     0.558,
+     0.046
+    ]
+   ],
+   "passengerProb": 0.3,
+   "seatScale": 1,
+   "kind": "car",
+   "length": 4.288,
+   "width": 1.989,
+   "bodyWidth": 1.75,
+   "height": 1.821,
+   "doorPoint": [
+    1.5445000000000002,
+    0,
+    0.046
+   ],
+   "rig": true
+  },
+  "cg_maz103": {
+   "yawOffset": 0,
+   "driverSeat": [
+    0.62,
+    1,
+    5
+   ],
+   "passengerSeats": [
+    [
+     0.88,
+     1,
+     -3.1
+    ],
+    [
+     0.88,
+     1,
+     -2.4
+    ],
+    [
+     0.88,
+     1,
+     -1.7
+    ],
+    [
+     0.88,
+     1,
+     -1
+    ],
+    [
+     0.88,
+     1,
+     -0.3
+    ],
+    [
+     0.88,
+     1,
+     0.4
+    ],
+    [
+     0.88,
+     1,
+     1.1
+    ],
+    [
+     0.88,
+     1,
+     1.8
+    ],
+    [
+     0.88,
+     1,
+     2.5
+    ],
+    [
+     -0.88,
+     1,
+     -2.8
+    ],
+    [
+     -0.88,
+     1,
+     -2.1
+    ],
+    [
+     -0.88,
+     1,
+     -1.4
+    ],
+    [
+     -0.88,
+     1,
+     1
+    ],
+    [
+     -0.88,
+     1,
+     1.7
+    ],
+    [
+     -0.88,
+     1,
+     2.4
+    ]
+   ],
+   "passengerProb": 0.4,
+   "seatScale": 1,
+   "kind": "bus",
+   "length": 12,
+   "width": 2.55,
+   "height": 3.1,
+   "doorPoint": [
+    1.825,
+    0,
+    0
+   ],
+   "wheelBase": 5.9,
+   "wheelR": 0.5,
+   "cargen": true
+  },
+  "cg_mondeo": {
+   "yawOffset": 0,
+   "driverSeat": [
+    0.362,
+    0.414,
+    0.16
+   ],
+   "passengerSeats": [
+    [
+     -0.362,
+     0.414,
+     0.16
+    ]
+   ],
+   "passengerProb": 0.3,
+   "seatScale": 1,
+   "kind": "car",
+   "length": 4.671,
+   "width": 1.808,
+   "bodyWidth": 1.758,
+   "height": 1.534,
+   "doorPoint": [
+    1.4540000000000002,
+    0,
+    0.16
+   ],
+   "rig": true
+  },
+  "cg_moskvich2141": {
+   "yawOffset": 0,
+   "driverSeat": [
+    0.39,
+    0.452,
+    -0.035
+   ],
+   "passengerSeats": [
+    [
+     -0.39,
+     0.452,
+     -0.035
+    ]
+   ],
+   "passengerProb": 0.3,
+   "seatScale": 1,
+   "kind": "car",
+   "length": 4.35,
+   "width": 1.948,
+   "bodyWidth": 1.715,
+   "height": 1.412,
+   "doorPoint": [
+    1.524,
+    0,
+    -0.035
+   ],
+   "rig": true
+  },
+  "cg_passatb3": {
+   "yawOffset": 0,
+   "driverSeat": [
+    0.384,
+    0.411,
+    0.117
+   ],
+   "passengerSeats": [
+    [
+     -0.384,
+     0.411,
+     0.117
+    ]
+   ],
+   "passengerProb": 0.3,
+   "seatScale": 1,
+   "kind": "car",
+   "length": 4.575,
+   "width": 1.92,
+   "bodyWidth": 1.722,
+   "height": 1.39,
+   "doorPoint": [
+    1.51,
+    0,
+    0.117
+   ],
+   "rig": true
+  },
+  "cg_passatb5": {
+   "yawOffset": 0,
+   "driverSeat": [
+    0.394,
+    0.443,
+    0.122
+   ],
+   "passengerSeats": [
+    [
+     -0.394,
+     0.443,
+     0.122
+    ]
+   ],
+   "passengerProb": 0.3,
+   "seatScale": 1,
+   "kind": "car",
+   "length": 4.703,
+   "width": 1.972,
+   "bodyWidth": 1.791,
+   "height": 1.4,
+   "doorPoint": [
+    1.536,
+    0,
+    0.122
+   ],
+   "rig": true
+  },
+  "cg_sierra": {
+   "yawOffset": 0,
+   "driverSeat": [
+    0.387,
+    0.443,
+    0.099
+   ],
+   "passengerSeats": [
+    [
+     -0.387,
+     0.443,
+     0.099
+    ]
+   ],
+   "passengerProb": 0.3,
+   "seatScale": 1,
+   "kind": "car",
+   "length": 4.43,
+   "width": 1.937,
+   "bodyWidth": 1.765,
+   "height": 1.405,
+   "doorPoint": [
+    1.5185,
+    0,
+    0.099
+   ],
+   "rig": true
+  },
+  "cg_sprinter": {
+   "yawOffset": 0,
+   "driverSeat": [
+    0.413,
+    0.7,
+    1.578
+   ],
+   "passengerSeats": [
+    [
+     -0.413,
+     0.7,
+     1.578
+    ]
+   ],
+   "passengerProb": 0.3,
+   "seatScale": 1,
+   "kind": "van",
+   "length": 5.926,
+   "width": 2.067,
+   "bodyWidth": 1.762,
+   "height": 2.455,
+   "doorPoint": [
+    1.5835000000000001,
+    0,
+    1.578
+   ],
+   "rig": true
+  },
+  "cg_vaz2105": {
+   "yawOffset": 0,
+   "driverSeat": [
+    0.353,
+    0.452,
+    0.147
+   ],
+   "passengerSeats": [
+    [
+     -0.353,
+     0.452,
+     0.147
+    ]
+   ],
+   "passengerProb": 0.3,
+   "seatScale": 1,
+   "kind": "car",
+   "length": 4.13,
+   "width": 1.767,
+   "bodyWidth": 1.662,
+   "height": 1.439,
+   "doorPoint": [
+    1.4335,
+    0,
+    0.147
+   ],
+   "rig": true
+  },
+  "cg_vaz2107": {
+   "yawOffset": 0,
+   "driverSeat": [
+    0.358,
+    0.451,
+    0.126
+   ],
+   "passengerSeats": [
+    [
+     -0.358,
+     0.451,
+     0.126
+    ]
+   ],
+   "passengerProb": 0.3,
+   "seatScale": 1,
+   "kind": "car",
+   "length": 4.145,
+   "width": 1.789,
+   "bodyWidth": 1.635,
+   "height": 1.412,
+   "doorPoint": [
+    1.4445000000000001,
+    0,
+    0.126
+   ],
+   "rig": true
+  },
+  "cg_vaz2108": {
+   "yawOffset": 0,
+   "driverSeat": [
+    0.402,
+    0.437,
+    -0.085
+   ],
+   "passengerSeats": [
+    [
+     -0.402,
+     0.437,
+     -0.085
+    ]
+   ],
+   "passengerProb": 0.3,
+   "seatScale": 1,
+   "kind": "car",
+   "length": 4.006,
+   "width": 2.008,
+   "bodyWidth": 1.677,
+   "height": 1.455,
+   "doorPoint": [
+    1.554,
+    0,
+    -0.085
+   ],
+   "rig": true
+  },
+  "cg_vaz2109": {
+   "yawOffset": 0,
+   "driverSeat": [
+    0.4,
+    0.471,
+    -0.081
+   ],
+   "passengerSeats": [
+    [
+     -0.4,
+     0.471,
+     -0.081
+    ]
+   ],
+   "passengerProb": 0.3,
+   "seatScale": 1,
+   "kind": "car",
+   "length": 4.006,
+   "width": 1.998,
+   "bodyWidth": 1.673,
+   "height": 1.472,
+   "doorPoint": [
+    1.549,
+    0,
+    -0.081
+   ],
+   "rig": true
+  },
+  "cg_vaz2110": {
+   "yawOffset": 0,
+   "driverSeat": [
+    0.364,
+    0.352,
+    0.018
+   ],
+   "passengerSeats": [
+    [
+     -0.364,
+     0.352,
+     0.018
+    ]
+   ],
+   "passengerProb": 0.3,
+   "seatScale": 1,
+   "kind": "car",
+   "length": 4.265,
+   "width": 1.821,
+   "bodyWidth": 1.662,
+   "height": 1.4,
+   "doorPoint": [
+    1.4605000000000001,
+    0,
+    0.018
+   ],
+   "rig": true
+  },
+  "cg_vaz2112": {
+   "yawOffset": 0,
+   "driverSeat": [
+    0.364,
+    0.352,
+    0.018
+   ],
+   "passengerSeats": [
+    [
+     -0.364,
+     0.352,
+     0.018
+    ]
+   ],
+   "passengerProb": 0.3,
+   "seatScale": 1,
+   "kind": "car",
+   "length": 4.265,
+   "width": 1.821,
+   "bodyWidth": 1.662,
+   "height": 1.4,
+   "doorPoint": [
+    1.4605000000000001,
+    0,
+    0.018
+   ],
+   "rig": true
+  },
+  "cg_vectraa": {
+   "yawOffset": 0,
+   "driverSeat": [
+    0.351,
+    0.37,
+    0.09
+   ],
+   "passengerSeats": [
+    [
+     -0.351,
+     0.37,
+     0.09
+    ]
+   ],
+   "passengerProb": 0.3,
+   "seatScale": 1,
+   "kind": "car",
+   "length": 4.43,
+   "width": 1.757,
+   "bodyWidth": 1.701,
+   "height": 1.67,
+   "doorPoint": [
+    1.4285,
+    0,
+    0.09
+   ],
+   "rig": true
+  },
+  "cg_w124": {
+   "yawOffset": 0,
+   "driverSeat": [
+    0.377,
+    0.397,
+    0.248
+   ],
+   "passengerSeats": [
+    [
+     -0.377,
+     0.397,
+     0.248
+    ]
+   ],
+   "passengerProb": 0.3,
+   "seatScale": 1,
+   "kind": "car",
+   "length": 4.755,
+   "width": 1.886,
+   "bodyWidth": 1.819,
+   "height": 1.439,
+   "doorPoint": [
+    1.4929999999999999,
+    0,
+    0.248
+   ],
+   "rig": true
+  },
+  "golf2": {
+   "yawOffset": 0,
+   "driverSeat": [
+    0.366,
+    0.447,
+    -0.08
+   ],
+   "passengerSeats": [
+    [
+     -0.366,
+     0.447,
+     -0.08
+    ]
+   ],
+   "passengerProb": 0.3,
+   "seatScale": 1,
+   "kind": "car",
+   "length": 4,
+   "width": 1.831,
+   "bodyWidth": 1.738,
+   "height": 1.397,
+   "doorPoint": [
+    1.4655,
+    0,
+    -0.08
+   ],
+   "rig": true
+  }
+ },
+ "_seats": "driverSeat/passengerSeats: pelvis point [x,y,z] in the model frame (+Z forward, +X LEFT, y up, origin at the wheel bottoms), seatScale: figure scale. Made by tools/npc_seats.py"
+}

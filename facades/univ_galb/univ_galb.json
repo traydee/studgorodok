@@ -1,0 +1,58 @@
+{
+ "0": {
+  "file": "univ_galb_e0.jpg",
+  "nfile": "univ_galb_e0_n.jpg",
+  "H": 7.6,
+  "Y0": 1.2,
+  "w": 165,
+  "h": 246
+ },
+ "1": {
+  "file": "univ_galb_e1.jpg",
+  "nfile": "univ_galb_e1_n.jpg",
+  "H": 7.6,
+  "Y0": 1.2,
+  "w": 65,
+  "h": 246
+ },
+ "2": {
+  "file": "univ_galb_e2.jpg",
+  "nfile": "univ_galb_e2_n.jpg",
+  "H": 7.6,
+  "Y0": 1.2,
+  "w": 41,
+  "h": 246
+ },
+ "3": {
+  "file": "univ_galb_e3.jpg",
+  "nfile": "univ_galb_e3_n.jpg",
+  "H": 7.6,
+  "Y0": 1.2,
+  "w": 106,
+  "h": 246
+ },
+ "5": {
+  "file": "univ_galb_e5.jpg",
+  "nfile": "univ_galb_e5_n.jpg",
+  "H": 7.6,
+  "Y0": 1.2,
+  "w": 145,
+  "h": 246
+ },
+ "6": {
+  "file": "univ_galb_e6.jpg",
+  "nfile": "univ_galb_e6_n.jpg",
+  "H": 7.6,
+  "Y0": 1.2,
+  "w": 67,
+  "h": 246
+ },
+ "7": {
+  "file": "univ_galb_e7.jpg",
+  "nfile": "univ_galb_e7_n.jpg",
+  "H": 7.6,
+  "Y0": 1.2,
+  "w": 165,
+  "h": 246
+ }
+}
